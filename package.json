@@ -1,0 +1,39 @@
+{
+  "name": "ola-maps-api",
+  "version": "1.0.0",
+  "description": "making project using ola maps api",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "npx parcel index.html",
+    "build": "npx parcel build index.html"
+  },
+  "keywords": [
+    "'ola-maps-api'",
+    "'project'"
+  ],
+  "author": "Brijesh Shukla",
+  "license": "ISC",
+  "dependencies": {
+    "@mapbox/polyline": "^1.2.1",
+    "@react-leaflet/core": "^2.1.0",
+    "axios": "^1.7.2",
+    "leaflet": "^1.9.4",
+    "leaflet-vector-tile-layer": "^0.16.1",
+    "maplibre-gl": "^4.5.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-leaflet": "^4.2.1",
+    "react-map-gl": "^7.1.7",
+    "react-router-dom": "^6.25.1",
+    "styled-components": "^6.1.12"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.19",
+    "buffer": "^6.0.3",
+    "parcel": "^2.12.0",
+    "postcss": "^8.4.39",
+    "process": "^0.11.10",
+    "tailwindcss": "^3.4.6"
+  }
+}
