@@ -24,7 +24,7 @@ const Planner = () => {
             return;
         }
     
-        axios.get(`https://api.olamaps.io/places/v1/autocomplete?input=${input}&api_key=JyNFwYmODoDUaDywhSgbE0RU7SXRKV6ObU8R3Gy9`)
+        axios.get(`https://api.olamaps.io/places/v1/autocomplete?input=${input}&api_key=${process.env.REACT_APP_OLA_API_KEY}`)
             .then(response => {
                 if (isStart) {
                     setStartSuggestions(response.data.predictions);
