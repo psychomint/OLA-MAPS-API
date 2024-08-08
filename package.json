@@ -2,7 +2,6 @@
   "name": "ola-maps-api",
   "version": "1.0.0",
   "description": "making project using ola maps api",
-  "main": "index.js",
   "scripts": {
     "test": "jest",
     "start": "npx parcel index.html",
